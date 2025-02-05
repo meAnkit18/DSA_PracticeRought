@@ -7,7 +7,10 @@ public class DLLMain {
         list.addFirst(33);
         list.addFirst(44);
         list.addFirst(55);
+        list.addLast(99);
+        list.insertAfter(303,330);
         list.diplay();
+
 
     }
 }

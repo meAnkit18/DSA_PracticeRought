@@ -1,5 +1,7 @@
 package LinkList;
 
+import inheritence.LL;
+
 public class MyLL {
     private Node head;
     private Node tail;
@@ -7,7 +9,20 @@ public class MyLL {
     public MyLL(){
         this.size = 0;
     }
+    public void shot(){
+        Node node = head;
+        while (node.next !=null) {
+            if (node.value == node.next.value) {
+                node.next = node.next.next;
+                node = node.next;
+            }else {
+                node = node.next;
+            }
 
+            tail = node;
+            tail.next = null;
+        }
+    }
     public void insetFirst(int val){
         Node node = new Node(val);
         node.next = head;

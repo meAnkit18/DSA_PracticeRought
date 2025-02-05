@@ -20,6 +20,20 @@ public class LL {
 
         size++;
     }
+//    public void addrecu(int val, int index){
+//         head = insertRecu(val,index,head);
+//    }
+//
+//    private Node insertRecu(int val,int index,Node nn){
+//         if(index == 0){
+//             Node temp = new Node(val, nn);
+//             return temp;
+//         }
+//
+//         nn.next=insertRecu(val,index-1,nn.next);
+//         return nn;
+//
+//    }
     public void addAt(int val, int index){
 
          if(index == 0){
@@ -44,6 +58,17 @@ public class LL {
         value.next=temp;
 
 
+    }
+    public void inseturec(int val,int index){
+         head = insertrecu( val, index, head);
+    }
+    private Node insertrecu(int val,int index,Node node){
+         if (index == 0){
+             Node temp = new Node(val,node);
+             return temp;
+         }
+         node.next = insertrecu(val,index-1,node.next);
+         return node;
     }
 
     public  void addLast(int val){

@@ -11,6 +11,7 @@ public class Main {
         a.addAt(88,0);
         a.addAt(77,6);
         a.addAt(666,2);
+        a.inseturec(2332,3);
 
         a.diplay();
     }
