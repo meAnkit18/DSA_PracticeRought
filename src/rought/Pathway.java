@@ -1,3 +1,5 @@
+package rought;
+
 public class Pathway {
     public static void main(String[] args) {
         path("",3, 3);

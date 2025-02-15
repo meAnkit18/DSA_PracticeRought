@@ -1,3 +1,5 @@
+package rought;
+
 public class Main {
     static int ans =0;
     static void pi(int n){

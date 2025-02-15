@@ -1,3 +1,5 @@
+package rought;
+
 public class SkipYouTube {
     public static void main(String[] args) {
 //        System.out.println(SkipYoutube("MY name is Youtube"));

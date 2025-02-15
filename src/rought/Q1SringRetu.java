@@ -1,3 +1,5 @@
+package rought;
+
 public class Q1SringRetu {
     public static void main(String[] args) {
         System.out.println(Skip("aaaabbbccc"));

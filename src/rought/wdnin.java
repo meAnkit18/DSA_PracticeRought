@@ -1,3 +1,5 @@
+package rought;
+
 public class wdnin {
     public static void main(String[] args) {
         Solution("", "abc");

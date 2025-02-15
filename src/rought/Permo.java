@@ -1,3 +1,5 @@
+package rought;
+
 public class Permo {
     public static void main(String[] args) {
         permutaton("","abc");

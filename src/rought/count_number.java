@@ -1,3 +1,5 @@
+package rought;
+
 public class count_number {
     public static void main(String[] args) {
         int c=0;

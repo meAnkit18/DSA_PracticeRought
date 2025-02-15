@@ -1,3 +1,5 @@
+package rought;
+
 public class max {
     public static void main(String[] args) {
         int arr[] = {1,4,32,6,84,3,2,5,7};

@@ -1,3 +1,5 @@
+package rought;
+
 public class PatternURecur {
     public static void main(String[] args) {
         int n = 4;

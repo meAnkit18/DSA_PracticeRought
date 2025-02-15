@@ -1,3 +1,5 @@
+package rought;
+
 import java.util.Arrays;
 
 public class SelctionShortURecu {

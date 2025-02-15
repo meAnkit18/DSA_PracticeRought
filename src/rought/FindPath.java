@@ -1,3 +1,5 @@
+package rought;
+
 public class FindPath {
     public static void main(String[] args) {
         boolean[][] ob = {

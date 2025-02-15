@@ -1,3 +1,5 @@
+package rought;
+
 public class Q1ofString {
     public static void main(String[] args) {
         Skip("","Aman");

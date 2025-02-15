@@ -1,3 +1,5 @@
+package rought;
+
 public class LinearSearchRec {
     public static void main(String[] args) {
         int arr[]= {1,5,3,8,2,4,5,67,34};
